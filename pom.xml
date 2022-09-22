@@ -34,11 +34,8 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.2.2</version>
             </plugin>
-        </plugins>
-  </build>
+  
 <!-- Maven Surefire plugin to run tests -->
-  <build>
-    <plugins>
        <!-- plugin to run test cases from maven -->
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
